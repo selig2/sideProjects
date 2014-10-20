@@ -1,25 +1,25 @@
 def sumRow(target, row): # where target is a double array
 
 	sum = 0
-	for j in range(2, 13): # go from 2003 to 2013, ignore 2014.6 for now
+	for j in range(2, 14): # go from 2003 to 2013, ignore 2014.6 for now
 		sum += float(target[row][j])
 	return sum
 
 def sumColumn(target, column):
 	sum = 0
-	for j in range(2, 33):
+	for j in range(1, 33):
 		sum += float(target[j][column])
 	return sum
 
 def sumSquaresColumn(target, column):
 	sum = 0
-	for j in range(2, 33):
+	for j in range(1, 33):
 		sum += (float(target[j][column]) ** 2)
 	return sum
 
 def sumXYColumn(target1, target2, column):
 	sum = 0
-	for j in range(2, 33):
+	for j in range(1, 33):
 		sum += (float(target1[j][column]) * float(target2[j][column]))
 	return sum
 
@@ -31,6 +31,15 @@ def averageOfArray(target):
 
 	return (sum / length)
 
+def averageColumn(target, column):
+	sum = 0
+	for i in range(1, 33):
+		sum += float(target[i][column])
+
+	return sum / 32
+
+
+  
 
 
 def findR(stat1Array, stat2Array, n, column): #eg find the correlation between column 2 (year 2003) of YPP vs GamesWon. n should be the number of pairs of data. Aka 32 for our purposes.
