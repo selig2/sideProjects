@@ -3,8 +3,8 @@ from statisticalFunctions import *
 
 
 #################################
-# All of these functions read in the data from the csv files and cleans it up.
-# Also makes turns the data into a double array for easy access of elements of the spreadsheet.
+# All of these functions read in the data from the csv files and cleans them up.
+# Also reformats the data into a double array for easy access of elements of the spreadsheet.
 
 
 

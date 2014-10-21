@@ -62,7 +62,7 @@ def compareRawStat(team1, team2, statArray):
 		if(statArray[i][1] == team2):
 			rem2 = i
 	if(rem1 == -1 or rem2 == -1):
-		return "One of your teams DNE or was not found"
+		return "One or more of your teams DNE or was not found"
 
 	team1Stat = statArray[rem1][13]
 	team2Stat = statArray[rem2][13]
@@ -75,25 +75,36 @@ def compareRawStat(team1, team2, statArray):
 
 
 #makes predictions on who will win the game for a given week using the koda numbers for each team.
-def makePredictions(week):
+def makePredictions(week, experiment): #experiment = which equation we will run it with
 	matchups = getWeekMatchups(week)
-	gamesWonArray = getGamesWon()
-	columns = len(gamesWonArray[0])
+	
+
 	dict = {"Arizona": 0, "Atlanta": 1, "Baltimore": 2, "Buffalo": 3, "Carolina": 4, "Chicago": 5, "Cincinnati": 6, \
-	"Cleveland": 7, "Dallas": 8, "Denver": 9, "Detroit": 10, "Green Bay": 11, "Houston": 12, "Indianapolis": columns-1, \
+	"Cleveland": 7, "Dallas": 8, "Denver": 9, "Detroit": 10, "Green Bay": 11, "Houston": 12, "Indianapolis": 13, \
 	"Jacksonville": 14, "Kansas City": 15, "Miami": 16, "Minnesota": 17, "New England": 18, "New Orleans": 19, "NY Giants": 20, \
 	"NY Jets": 21, "Oakland": 22, "Philadelphia": 23, "Pittsburgh": 24, "San Diego": 25, "San Francisco": 26, "Seattle": 27, \
 	"St Louis": 28, "Tampa Bay": 29, "Tennessee": 30, "Washington": 31}
-	koda = getKodaNumbers()
+
+	if(experiment == 1):
+		values = experimental1()
+	if(experiment == 2):
+		values = experimental2()
+	if(experiment == 3):
+		values = experimental3()
+	if(experiment == 4):
+		values = experimental4()
+	if(experiment == 5):
+		values = experimental5()
+
 	for j in range(len(matchups[0])):
 		team1 = matchups[0][j]
 		team2 = matchups[1][j]
-		if(koda[dict[team1]] > koda[dict[team2]]):
-			print "Predicted winner: " + team1 + " with koda score of: " + str(koda[dict[team1]])
-			print "Predicted loser: " + team2 + " with koda score of: " + str(koda[dict[team2]]) + "\n\n"
+		if(values[dict[team1]] > values[dict[team2]]):
+			print "Predicted winner: " + team1 + " with score of: " + str(values[dict[team1]])
+			print "Predicted loser: " + team2 + " with score of: " + str(values[dict[team2]]) + "\n\n"
 		else:
-			print "Predicted loser: " + team1 + " with koda score of: " + str(koda[dict[team1]])
-			print "Predicted winner: " + team2 + " with koda score of: " + str(koda[dict[team2]]) + "\n\n"
+			print "Predicted loser: " + team1 + " with score of: " + str(values[dict[team1]])
+			print "Predicted winner: " + team2 + " with score of: " + str(values[dict[team2]]) + "\n\n"
 
 
 
