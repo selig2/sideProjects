@@ -1,5 +1,7 @@
 import csv
-def getWeekMatchups(week): # returns an array [[Arizona, Oakland ... ], [San Diego, Kansas City ...]]
+from getAllData import *
+from statisticalFunctions import *
+def getWeekMatchups(week): # returns an array [[Arizona, Oakland ... ], [San Diego, Kansas City ...]] which can be interpreted as matchups for the week.
 #                                                    ^ home teams              ^ away teams for a particular week
 	#week 7 matchups start at 0-14 (row 0 to row 14)
 	#week 8 matchups 15-30
@@ -70,6 +72,31 @@ def compareRawStat(team1, team2, statArray):
 	if(float(team1Stat) > float(team2Stat)):
 		return statArray[rem1][1]
 	return statArray[rem2][1]
+
+
+#makes predictions on who will win the game for a given week using the koda numbers for each team.
+def makePredictions(week):
+	matchups = getWeekMatchups(week)
+	gamesWonArray = getGamesWon()
+	columns = len(gamesWonArray[0])
+	dict = {"Arizona": 0, "Atlanta": 1, "Baltimore": 2, "Buffalo": 3, "Carolina": 4, "Chicago": 5, "Cincinnati": 6, \
+	"Cleveland": 7, "Dallas": 8, "Denver": 9, "Detroit": 10, "Green Bay": 11, "Houston": 12, "Indianapolis": columns-1, \
+	"Jacksonville": 14, "Kansas City": 15, "Miami": 16, "Minnesota": 17, "New England": 18, "New Orleans": 19, "NY Giants": 20, \
+	"NY Jets": 21, "Oakland": 22, "Philadelphia": 23, "Pittsburgh": 24, "San Diego": 25, "San Francisco": 26, "Seattle": 27, \
+	"St Louis": 28, "Tampa Bay": 29, "Tennessee": 30, "Washington": 31}
+	koda = getKodaNumbers()
+	for j in range(len(matchups[0])):
+		team1 = matchups[0][j]
+		team2 = matchups[1][j]
+		if(koda[dict[team1]] > koda[dict[team2]]):
+			print "Predicted winner: " + team1 + " with koda score of: " + str(koda[dict[team1]])
+			print "Predicted loser: " + team2 + " with koda score of: " + str(koda[dict[team2]]) + "\n\n"
+		else:
+			print "Predicted loser: " + team1 + " with koda score of: " + str(koda[dict[team1]])
+			print "Predicted winner: " + team2 + " with koda score of: " + str(koda[dict[team2]]) + "\n\n"
+
+
+
 
 
 

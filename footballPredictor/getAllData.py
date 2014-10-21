@@ -1,4 +1,16 @@
 import csv
+from statisticalFunctions import *
+
+
+#################################
+# All of these functions read in the data from the csv files and cleans it up.
+# Also makes turns the data into a double array for easy access of elements of the spreadsheet.
+
+
+
+
+
+
 def getGamesWon():
 
 	gamesWonFile = open('/home/lucas/github/footballData/csvStats/gamesWon.csv') #get the gamesWon data. Nicely formatted.
@@ -64,14 +76,14 @@ def getFieldGoals():
 		fieldGoalsArray.append(row)
 	return fieldGoalsArray
 def getATPR():
-	atprFile = open('/home/lucas/github/footballData/csvStats/masterAverageTeamPasserRating.csv')
+	atprFile = open('/home/lucas/github/footballData/csvStats/masterAverageTeamPasserRating.csv') #get the average team passer rating 
 	atpr = csv.reader(atprFile)
 	atprArray = []
 	for row in atpr:
 		atprArray.append(row)
 	return atprArray
 def getThirdDownPercent():
-	thirdDownPercentFile = open('/home/lucas/github/footballData/csvStats/master3rdDownPercent.csv')
+	thirdDownPercentFile = open('/home/lucas/github/footballData/csvStats/master3rdDownPercent.csv') # ge the opponent average team passer rating
 	thirdDownPercent = csv.reader(thirdDownPercentFile)
 	thirdDownPercentArray = []
 	for row in thirdDownPercent:
@@ -88,7 +100,7 @@ def reformat(turnoverMarginArray, redZoneTDArray, thirdDownPercentArray):
 
 			redZoneTDArray[i][j] = redZoneTDArray[i][j][:-1] #get rid of %
 			thirdDownPercentArray[i][j] = thirdDownPercentArray[i][j][:-1] #get rid of %
-def getPasserRatingDiff(atprArray, oatprArray):
+def getPasserRatingDiff(atprArray, oatprArray): # just does the following: atpr - oatpr
 	passerRatingDiff = []
 	for i in range(1, 33):
 		for j in range(2, 14):
@@ -96,6 +108,17 @@ def getPasserRatingDiff(atprArray, oatprArray):
 	passerRatingDiff = atprArray
 	return passerRatingDiff
 
-########################################################################
+######################################################################## 
+def getGamesWon2014(): #gets the scores for all teams so far this season.
+	gamesWonArray = getGamesWon()
+	columns = len(gamesWonArray[0])
+	gamesWon2014 = []
+	for i in range(1, 33):
+		gamesWon2014.append(gamesWonArray[i][columns-1])
+	return gamesWon2014
+
+
+
+
 
 
