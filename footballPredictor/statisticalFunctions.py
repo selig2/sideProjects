@@ -38,11 +38,18 @@ def averageColumn(target, column):
 
 	return sum / 32
 
+def sumArray(target):
+	sum = 0
+	for i in range(len(target)):
+		sum += float(target[i])
+	return sum
+
 
   
 
 
-def findR(stat1Array, stat2Array, n, column): #eg find the correlation between column 2 (year 2003) of YPP vs GamesWon. n should be the number of pairs of data. Aka 32 for our purposes.
+def findRDoubleArrays(stat1Array, stat2Array, n, column): #eg find the correlation between column 2 (year 2003) of YPP vs GamesWon. n should be the number of pairs of data. Aka 32 for our purposes.
+	#WORKS FOR DOUBLE ARRAYS
 	sumX = sumColumn(stat1Array, column)# step 1: sum up all 'x' coordinates
 	sumY = sumColumn(stat2Array, column) # step 2: sum up all'y' coordinates
 	sumXSquared = sumSquaresColumn(stat1Array, column) # sum up all 'x^2' coordinates
@@ -51,7 +58,13 @@ def findR(stat1Array, stat2Array, n, column): #eg find the correlation between c
 
 
 	r = ((n * sumXY) - (sumX * sumY)) / ((((n * sumXSquared) - (sumX ** 2)) ** .5) * (((n * sumYSquared) - (sumY ** 2)) ** .5))
-	return r 
+
+	return r
+
+def findRSingleArrays(stat1Array, stat2Array): 
+	#works for single arrays
+	return
+
 
 
 
