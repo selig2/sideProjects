@@ -20,12 +20,11 @@ def getGamesWon():
 		gamesWonArray.append(row)
 	return gamesWonArray
 
-def getGamesWon2014(): #gets the scores for all teams so far this season.
+def getGamesWonFrom(year): #gets the scores for all teams so far this season.
 	gamesWonArray = getGamesWon()
-	columns = len(gamesWonArray[0])
 	gamesWon2014 = []
 	for i in range(1, 33):
-		gamesWon2014.append(gamesWonArray[i][columns-1])
+		gamesWon2014.append(gamesWonArray[i][year - 2001])
 	return gamesWon2014
 
 def getYPP():
@@ -36,12 +35,11 @@ def getYPP():
 		yppArray.append(row)
 	return yppArray
 
-def getYPP2014():
+def getYPPFrom(year):
 	yppArray = getYPP()
-	columns = len(yppArray[0])
 	ypp2014 = []
 	for i in range(1, 33):
-		ypp2014.append(yppArray[i][columns-1])
+		ypp2014.append(yppArray[i][year - 2001])
 	return ypp2014
 
 def getTurnoverMargin():
@@ -52,12 +50,11 @@ def getTurnoverMargin():
 		turnoverMarginArray.append(row)
 	return turnoverMarginArray
 
-def getTurnoverMargin2014():
+def getTurnoverMarginFrom(year):
 	turnoverMarginArray = getTurnoverMargin()
-	columns = len(turnovermarginArray[0])
 	turnoverMargin2014 = []
 	for i in range(1, 33):
-		turnoverMargin2014.append(turnoverMarginArray[i][columns-1])
+		turnoverMargin2014.append(turnoverMarginArray[i][year - 2001])
 	return turnoverMargin2014
 	
 def getTakeaways():
@@ -68,12 +65,11 @@ def getTakeaways():
 		takeawaysArray.append(row)
 	return takeawaysArray
 
-def getTakeaways2014():
+def getTakeawaysFrom(year):
 	takeawaysArray = getTakeaways()
-	columns = len(takeawaysArray[0])
 	takeaways2014 = []
 	for i in range(1, 33):
-		takeaways2014.append(takeawaysArray[i][columns-1])
+		takeaways2014.append(takeawaysArray[i][year - 2001])
 	return takeaways2014
 	
 def getRedZoneTDPercent():
@@ -83,12 +79,12 @@ def getRedZoneTDPercent():
 	for row in redZoneTDPercent:
 		redZoneTDArray.append(row)
 	return redZoneTDArray
-def getRedZoneTDPercent2014():
+def getRedZoneTDPercentFrom(year):
 	redZoneTDPercentArray = getRedZoneTDPercent()
-	columns = len(redZoneTDPercentArray[0])
 	redZoneTDPercent2014 = []
 	for i in range(1, 33):
-		redZoneTDPercent2014.append(redZoneTDPercentArray[i][columns-1])
+		redZoneTDPercent2014.append(redZoneTDPercentArray[i][year-2001][:-1])
+
 	return redZoneTDPercent2014
 	
 def getPPPMargin():
@@ -98,12 +94,11 @@ def getPPPMargin():
 	for row in pppMargin:
 		pppMarginArray.append(row)
 	return pppMarginArray
-def getPPPMargin2014():
+def getPPPMarginFrom(year):
 	pppMarginArray = getPPPMargin()
-	columns = len(pppMarginArray[0])
 	pppMargin2014 = []
 	for i in range(1, 33):
-		pppMargin2014.append(pppMarginArray[i][columns-1])
+		pppMargin2014.append(pppMarginArray[i][year - 2001])
 	return pppMargin2014
 
 def getPPP():
@@ -114,12 +109,11 @@ def getPPP():
 		pppArray.append(row)
 	return pppArray
 
-def getPPP2014():
+def getPPPFrom(year):
 	PPPArray = getPPP()
-	columns = len(PPPArray[0])
 	PPP2014 = []
 	for i in range(1, 33):
-		PPP2014.append(PPPArray[i][columns-1])
+		PPP2014.append(PPPArray[i][year-2001])
 	return PPP2014
 
 def getOATPR():
@@ -138,12 +132,11 @@ def getFieldGoals():
 		fieldGoalsArray.append(row)
 	return fieldGoalsArray
 
-def getFieldGoals2014():
+def getFieldGoalsFrom(year):
 	fieldGoalsArray = getFieldGoals()
-	columns = len(fieldGoalsArray[0])
 	fieldGoals2014 = []
 	for i in range(1, 33):
-		fieldGoals2014.append(fieldGoalsArray[i][columns-1])
+		fieldGoals2014.append(fieldGoalsArray[i][year-2001])
 	return fieldGoals2014
 
 def getATPR():
@@ -161,12 +154,11 @@ def getThirdDownPercent():
 		thirdDownPercentArray.append(row)
 	return thirdDownPercentArray
 
-def getThirdDownPercent2014():
+def getThirdDownPercentFrom(year):
 	thirdDownPercentArray = getThirdDownPercent()
-	columns = len(thirdDownPercentArray[0])
 	thirdDownPercent2014 = []
 	for i in range(1, 33):
-		thirdDownPercent2014.append(thirdDownPercentArray[i][columns-1])
+		thirdDownPercent2014.append(thirdDownPercentArray[i][year-2001][:-1])
 	return thirdDownPercent2014
 
 #######################################################################
@@ -182,7 +174,7 @@ def reformat(turnoverMarginArray, redZoneTDArray, thirdDownPercentArray):
 			thirdDownPercentArray[i][j] = thirdDownPercentArray[i][j][:-1] #get rid of %
 def getPasserRatingDiff(atprArray, oatprArray): # just does the following: atpr - oatpr
 	passerRatingDiff = []
-	columns = len(redZoneTDArray[0])
+	columns = len(atprArray[0])
 	for i in range(1, 33):
 		for j in range(2, columns):
 			atprArray[i][j] = float(atprArray[i][j]) - float(oatprArray[i][j])
@@ -190,12 +182,13 @@ def getPasserRatingDiff(atprArray, oatprArray): # just does the following: atpr 
 	return passerRatingDiff
 
 ######################################################################## 
-def getPasserRatingDiff2014():
-	passerRatingDiffArray = getPasserRatingDiff()
-	columns = len(passerRatingDiffArray[0])
+def getPasserRatingDiffFrom(year):
+	atpr = getATPR()
+	oatpr = getOATPR()
+	passerRatingDiffArray = getPasserRatingDiff(atpr, oatpr)
 	passerRatingDiff2014 = []
 	for i in range(1, 33):
-		passerRatingDiff2014.append(passerRatingDiffArray[i][columns-1])
+		passerRatingDiff2014.append(passerRatingDiffArray[i][year-2001])
 	return passerRatingDiff2014
 
 

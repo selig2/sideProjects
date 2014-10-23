@@ -52,26 +52,7 @@ def getWeekMatchups(week): # returns an array [[Arizona, Oakland ... ], [San Die
 	weekMatchups.append(weekMatchups1)
 	weekMatchups.append(weekMatchups2)
 	return weekMatchups
-	
-def compareRawStat(team1, team2, statArray):
-	rem1 = -1
-	rem2 = -1
-	for i in range(1, 33):
-		if(statArray[i][1] == team1):
-			rem1 = i
-		if(statArray[i][1] == team2):
-			rem2 = i
-	if(rem1 == -1 or rem2 == -1):
-		return "One or more of your teams DNE or was not found"
 
-	team1Stat = statArray[rem1][13]
-	team2Stat = statArray[rem2][13]
-	print team1Stat
-	print team2Stat
-
-	if(float(team1Stat) > float(team2Stat)):
-		return statArray[rem1][1]
-	return statArray[rem2][1]
 
 
 #makes predictions on who will win the game for a given week using the koda numbers for each team.
