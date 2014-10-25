@@ -360,36 +360,34 @@ def experimental5SD():
   
 
 
-def findRDoubleArrays(stat1Array, stat2Array, n, year): #eg find the correlation between column 2 (year 2003) of YPP vs GamesWon. n should be the number of pairs of data. Aka 32 for our purposes.
+def findRDoubleArrays(stat1Array, stat2Array, n, column): #eg find the correlation between column 2 (year 2003) of YPP vs GamesWon. n should be the number of pairs of data. Aka 32 for our purposes.
 	#WORKS FOR DOUBLE ARRAYS
-	#year-2001 because season 2003 is at index 2
-	if(year < 2003):
-		return
-	sumX = sumColumn(stat1Array, year-2001)# step 1: sum up all 'x' coordinates
-	sumY = sumColumn(stat2Array, year-2001) # step 2: sum up all'y' coordinates
-	sumXSquared = sumSquaresColumn(stat1Array, year-2001) # sum up all 'x^2' coordinates
-	sumYSquared = sumSquaresColumn(stat2Array, year-2001) # sum up all 'y^2' coordinates
-	sumXY = sumXYColumn(stat1Array, stat2Array, year-2001)
+	
+	sumX = sumColumn(stat1Array, column)# step 1: sum up all 'x' coordinates
+	sumY = sumColumn(stat2Array, column) # step 2: sum up all'y' coordinates
+	sumXSquared = sumSquaresColumn(stat1Array, column) # sum up all 'x^2' coordinates
+	sumYSquared = sumSquaresColumn(stat2Array, column) # sum up all 'y^2' coordinates
+	sumXY = sumXYColumn(stat1Array, stat2Array, column)
 
 
 	r = ((n * sumXY) - (sumX * sumY)) / ((((n * sumXSquared) - (sumX ** 2)) ** .5) * (((n * sumYSquared) - (sumY ** 2)) ** .5))
 	return r
 
-# def findRSingleArrays(stat1Array, stat2Array): 
-# 	#works for single arrays
-# 	if(len(stat1Array) != len(stat2Array)):
-# 		print "The arrays are not the same length"
-# 		return
+def findRSingleArrays(stat1Array, stat2Array): 
+	#works for single arrays
+	if(len(stat1Array) != len(stat2Array)):
+		print "The arrays are not the same length"
+		return
 
-# 	sumX = sumArray(stat1Array)
-# 	sumY = sumArray(stat2Array)
-# 	sumXSquared = sumSquaresSingleArray(stat1Array)
-# 	sumYSquared = sumSquaresSingleArray(stat2Array)
-# 	sumXY = zipMultiplyArray(stat1Array, stat2Array)
-# 	n = len(stat1Array)
-# 	r = ((n * sumXY) - (sumX * sumY)) / ((((n * sumXSquared) - (sumX ** 2)) ** .5) * (((n * sumYSquared) - (sumY ** 2)) ** .5))
+	sumX = sumArray(stat1Array)
+	sumY = sumArray(stat2Array)
+	sumXSquared = sumSquaresSingleArray(stat1Array)
+	sumYSquared = sumSquaresSingleArray(stat2Array)
+	sumXY = zipMultiplyArray(stat1Array, stat2Array)
+	n = len(stat1Array)
+	r = ((n * sumXY) - (sumX * sumY)) / ((((n * sumXSquared) - (sumX ** 2)) ** .5) * (((n * sumYSquared) - (sumY ** 2)) ** .5))
 
-# 	return r
+	return r
 
 def linearRegression(stat1Array, stat2Array, n, year):
 	

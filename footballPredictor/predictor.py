@@ -23,25 +23,25 @@ def getWeekMatchups(week): # returns an array [[Arizona, Oakland ... ], [San Die
 	if(week == 7): # corresponding rows to pull from in the schedule spreadsheet
 		tmp = range(0, 15)
 	if(week == 8):
-		tmp = range(15, 31)
+		tmp = range(15, 30)
 	if(week == 9):
-		tmp = range(31, 44)
+		tmp = range(30, 43)
 	if(week == 10):
-		tmp = range(44, 57)
+		tmp = range(43, 56)
 	if(week == 11):
-		tmp = range(57, 71)
+		tmp = range(56, 70)
 	if(week == 12):
-		tmp = range(71, 86)
+		tmp = range(70, 85)
 	if(week == 13):
-		tmp = range(86, 102)
+		tmp = range(85, 101)
 	if(week == 14):
-		tmp = range(102, 118)
+		tmp = range(101, 117)
 	if(week == 15):
-		tmp = range(118, 134)
+		tmp = range(117, 133)
 	if(week == 16):
-		tmp = range(134, 150)
+		tmp = range(133, 149)
 	if(week == 17):
-		tmp = range(150, 166)
+		tmp = range(149, 165)
 
 	weekMatchups1 = []
 	weekMatchups2 = []

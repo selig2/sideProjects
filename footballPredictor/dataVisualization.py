@@ -23,6 +23,7 @@ def plotAllSeasons(array1, array2, xLabel, yLabel, title, filename): # first arr
 	plt.scatter(tmp1, tmp2) #args = firstArray, secondArray, marker = 'blah, linestyle = 'blah', color = 'blah'
 	# plt.scatter(tmp3, tmp2, color='k')
 	# plt.scatter(tmp4, tmp2, color='c')
+	plt.show()	
 	plt.savefig(filename)
 
 def plotSeason(array1, array2, year, xLabel, yLabel, title, filename):
