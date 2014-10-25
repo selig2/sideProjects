@@ -57,15 +57,15 @@ def main():
 	reformat(turnoverMargin, redZoneTDPercent, thirdDownPercent)
 
 	#print findRSingleArrays(PPPMarginSoFar, gamesWonSoFar)
-	r = findRDoubleArrays(ppp, gamesWon, 32, 2013)
+	r = findRDoubleArrays(pppMargin, gamesWon, 32, 2012)
 	print "r = " + str(r)
 	print "r squared= " + str(r**2)
 
-	print linearRegression(ppp, gamesWon, 32, 2014)
+	print linearRegression(pppMargin, gamesWon, 32, 2012)
 
 	#print plotSeason(redZoneTDPercent, gamesWon, 2013, 'a', 'b', 'c', 'd')
 
-	print plotLinearRegression(ppp, gamesWon, 2014, "ppp margin", "games won", "ppp vs gamesWon")
+	print plotLinearRegression(pppMargin, gamesWon, 2012, "ppp margin", "games won", "ppp vs gamesWon")
 
 	#print plotAllSeasons(passerRatingDiff, gamesWon, "Passer Rating Differential", "Games Won", "Passer Rating Diff vs Games Won", "PasserRatingDiffVGamesWon.png")
 
