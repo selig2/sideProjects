@@ -173,6 +173,19 @@ def getTakeawaysR():
 	takeawaysR = averageOfArray(takeawaysR)
 	return takeawaysR
 
+def getIndependentCorrelation():
+	pppMarginArray = getPPPMargin()
+	atprArray = getATPR()
+	oatprArray = getOATPR()
+	passerRatingDiffArray = getPasserRatingDiff(atprArray, oatprArray)
+	columns = len(pppMarginArray[0])
+	independentCorrelation = []
+	for j in range(2, columns-1):
+		independentCorrelation.append(findRDoubleArrays(pppMarginArray, passerRatingDiffArray, 32, j))
+	independentCorrelation = averageOfArray(independentCorrelation)
+	return independentCorrelation
+
+
 
 ##
 #I'm seeing how this equation correlates to games won. Trying to get as close to one as possible.
@@ -192,7 +205,7 @@ def experimental1(): #returns an array of values calculated for each time by the
 
 	
 	exp1 = []
-
+	
 	for i in range(1, 33):
 		exp1Value = (float(yppArray[i][columns-1]) * getYPPR() * .10) + (float(turnoverMarginArray[i][columns-1]) * getTurnoverMarginR() * .05)\
 		+ (float(redZoneTDArray[i][columns-1]) * getRedZoneTDPercentR() * .15) + (float(pppMarginArray[i][columns-1]) * getPPPMarginR() * .2)\
@@ -389,15 +402,15 @@ def findRSingleArrays(stat1Array, stat2Array):
 
 	return r
 
-def linearRegression(stat1Array, stat2Array, n, year):
+def linearRegression(stat1Array, stat2Array, n, column):
 	
 
-	sumX = sumColumn(stat1Array, year-2001)
+	sumX = sumColumn(stat1Array, f)
 
-	sumY = sumColumn(stat2Array, year-2001)
-	sumXSquared = sumSquaresColumn(stat1Array, year-2001) # sum up all 'x^2' coordinates
-	sumYSquared = sumSquaresColumn(stat2Array, year-2001) # sum up all 'y^2' coordinates
-	sumXY = sumXYColumn(stat1Array, stat2Array, year-2001)
+	sumY = sumColumn(stat2Array, column)
+	sumXSquared = sumSquaresColumn(stat1Array, column) # sum up all 'x^2' coordinates
+	sumYSquared = sumSquaresColumn(stat2Array, column) # sum up all 'y^2' coordinates
+	sumXY = sumXYColumn(stat1Array, stat2Array, column)
 	b = ((n * sumXY) - (sumX * sumY)) / ((n * sumXSquared) - (sumX ** 2))
 	a = (sumY - (b * sumX)) / 32
 
@@ -405,8 +418,72 @@ def linearRegression(stat1Array, stat2Array, n, year):
 
 	return (a, b)
 
+def multipleRegression():
+	#x1 = pppMargin
+	#x2 = passerRatingDiff
+	#y = gamesWon
+	#get (x1, x2) r and (x1, y) r and (x2, y) r
 
+	r1 = getIndependentCorrelation() #x1 v x2
+	r2 = getPPPMarginR() #x1 v y
+	r3 = getPasserRatingDiffR() # x2 v Y
+	#print r1, r2, r3
 
+	R = ((((r2 ** 2) + (r3 ** 2)) - (2*r1*r2*r3)) / ((1 - (r1 ** 2)))) ** .5
+
+	#print R
+
+	## ===>>> Multiple Regression Equation  Y' = a + b1X1 + b2X2 
+	#Calculating b1 and b2 (regression coefficients) ===>> Need to calculate SD for each ==>> Need to calculate averages first
+
+	gamesWonArray = getGamesWon()
+	pppMarginArray = getPPPMargin()
+	atprArray = getATPR()
+	oatprArray = getOATPR()
+	passerRatingDiffArray = getPasserRatingDiff(atprArray, oatprArray)
+	columns = len(gamesWonArray[0])
+	allGamesWon = []
+	allPPPMargins = []
+	allPasserRatingDiffs = []
+
+	#building up a big array of all x1 and x2 and y1 coordinates
+	for i in range(1, 33): #for every column
+		for j in range(2, columns-1): #for every team
+			allGamesWon.append(gamesWonArray[i][j])
+			allPPPMargins.append(pppMarginArray[i][j])
+			allPasserRatingDiffs.append(passerRatingDiffArray[i][j])
+	#averaging these arrays
+	averageGW = averageOfArray(allGamesWon)
+	averagePPPMargin = averageOfArray(allPPPMargins)
+	averagePasserRatingDiff = averageOfArray(allPasserRatingDiffs)
+
+	#doing the steps to calculate standard deviation
+	sum1 = 0
+	sum2 = 0
+	sum3 = 0
+	for i in range(len(allGamesWon)):
+		sum1 += (float(allGamesWon[i]) - averageGW) ** 2
+		sum2 += (float(allPPPMargins[i]) - averagePPPMargin) ** 2
+		sum3 += (float(allPasserRatingDiffs[i]) - averagePasserRatingDiff) ** 2
+
+	pppMarginSD = (sum2 / (len(allPPPMargins) - 1)) ** .5
+	passerRatingDiffSD = (sum3 / (len(allPasserRatingDiffs) - 1)) ** .5
+	gamesWonSD = (sum1 / (len(allGamesWon) - 1)) ** .5
+
+	#calculate b1 and b2
+	#x1 = pppMargin
+	#x2 = passerRatingDiff
+	#y = gamesWon
+	#r1 = correlation between x1 v x2
+	#r2 = correlation between x1 v y
+	#r3 = correlation between x2 v Y
+	b1 = ((r2 - (r1*r3)) / (1 - (r1**2))) * (gamesWonSD / pppMarginSD)
+	b2 = ((r3 - (r1*r2)) / (1 - (r1**2))) * (gamesWonSD / passerRatingDiffSD)
+	a = averageGW - (b1 * averagePPPMargin) - (b2 * averagePasserRatingDiff)
+
+	#Recall that Y' = a + b1x1 + b2x2, where x1 = PPPMargin and x2 = PasserRatingDifferential
+
+	return (a, b1, b2)
 
 
 

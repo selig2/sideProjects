@@ -1,6 +1,7 @@
 import csv
 from getAllData import *
 from statisticalFunctions import *
+import time
 def getWeekMatchups(week): # returns an array [[Arizona, Oakland ... ], [San Diego, Kansas City ...]] which can be interpreted as matchups for the week.
 #                                                    ^ home teams              ^ away teams for a particular week
 	#week 7 matchups start at 0-14 (row 0 to row 14)
@@ -77,6 +78,8 @@ def makePredictions(week, experiment): #experiment = which equation we will run 
 	if(experiment == 5):
 		values = experimental5()
 
+	print range(len(matchups[0]))
+
 	for j in range(len(matchups[0])):
 		team1 = matchups[0][j]
 		team2 = matchups[1][j]
@@ -86,8 +89,8 @@ def makePredictions(week, experiment): #experiment = which equation we will run 
 		else:
 			print "Predicted loser: " + team1 + " with score of: " + str(values[dict[team1]])
 			print "Predicted winner: " + team2 + " with score of: " + str(values[dict[team2]]) + "\n\n"
-
-
+		time.sleep(.4);
+ 	
 
 
 

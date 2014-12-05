@@ -1,0 +1,780 @@
+#1 Managerial accounting, as compared to financial accounting:
+places a great deal of emphasis on historical transactions.
+focuses on information prepared for the investors and creditors.
+must conform to GAAP.
+uses frequent and prompt control reports.A
+#2 The scattergram allows cost-volume relationships to be visually scanned for outlier observations that should be:
+included in the calculation of the cost formula of a mixed cost.
+included in the calculation of the variable rate component of the mixed cost.
+included in the calculation of the fixed cost component of the mixed cost.
+ignored in the calculation of the cost formula of a mixed cost.A
+#3 Knowledge about the behavior pattern of a cost is important to understanding the effect on net income of a change in sales volume because as sales volume changes:
+fixed costs will rise proportionately.
+net income will change proportionately.
+variable costs will not change.
+the effect on net income will depend on the behavior pattern of various costs.A
+#4 The concept of operating leverage refers to which of the following?
+Operating income changes proportionately more than revenues for any given change in activity level.A
+Operating income changes proportionately more than income for any given change in activity level.
+Operating income changes proportionately less than income for any given change in activity level.
+Operating income changes proportionately less than revenues for any given change in activity level
+#5 Managerial accounting can best be described as:
+the preparation and distribution of the corporate tax return.
+the preparation and use of accounting information within the organization.A
+the preparation and distribution of the financial statements.
+meeting the requirements of generally accepted accounting principles.
+#6 As the level of activity decreases:
+variable cost per unit decrease.
+fixed cost remains constant in total.A
+variable cost remains constant in total.
+fixed cost per unit decrease.
+#7  When a cost formula is used to describe a mixed (semi-variable) cost behavior pattern, total costs are expected to increase and per unit costs are expected to:
+decrease as the level of activity decreases.
+decrease as the level of activity increases.
+remain constant as the level of activity increases.A
+increase as the level of activity increases.
+#8 As the total volume of activity changes:
+fixed costs per unit stay the same.
+the total of fixed costs changes.
+the total of variable costs changes.A
+variable costs per unit change.
+#9 ________ costs between two alternative projects are those that would result from selecting one alternative instead of the other:
+DifferentialA
+Allocated
+Sunk
+Irrelevant
+#1 Performance analysis in the planning and control cycle relates to the act of:
+managing.
+controlling.A
+revising plans.
+planning.
+#2 Each of a company's two product lines has a different contribution margin ratio. If the company's total sales remain the same but the sales mix shifts toward selling more of the product with the higher contribution ratio, which of the following is true?
+The average contribution margin ratio will increase.
+The break-even point will decrease.
+Operating income will increase.
+All of these are true.A
+#3 As the level of activity decreases:
+variable cost per unit decrease.
+fixed cost per unit decrease.
+fixed cost remains constant in total.A
+variable cost remains constant in total.
+#4 A management decision that would have a long term influence on the operating leverage of a firm would be:
+increasing the advertising budget.
+having a season-end sale of seasonal products.
+substituting robots for hourly paid production workers.A
+increasing prices in proportion to raw material cost increases.
+#5 ABU Co. has several products, each with a different contribution margin ratio. If the same number of units were sold in July as in June, but the sales mix changed:
+operating income would be the same in June and July.
+total contribution margin in July would be different from that in June.A
+the company's overall contribution margin ratio would be the same in June and July.
+fixed expenses in July would be in a different relevant range than in June.
+#6 The term "relevant range" refers to:
+the range of activity where total variable cost remains constant as activity changes.
+the range of activity where costs will fluctuate.
+the range of activity where cost relationships are valid.A
+the range of activity where fixed costs change as activity changes.
+#7 Which of the following is another term for mixed costs?
+Component costs.
+None of these.
+Semifixed costs.
+Semivariable costs.A
+#8 An example of a cost likely to have a mixed behavior pattern is:
+electricity cost for the manufacturing plant.A
+raw material cost.
+sales force commission.
+depreciation of production equipment.
+#9 A(n) _____________ is the minimum cost that can be incurred, which when subtracted from the selling price, allows for a desired profit to be earned.
+relevant cost
+opportunity cost
+incremental cost
+target costA
+#10 Opportunity costs are:
+foregone benefits.A
+included in inventory.
+included in cost of goods sold.
+sunk costs.
+1. To which function of management is CVP analysis most applicable?
+Organizing
+Controlling
+Directing 
+PlanningA
+2. The contribution margin format income statement is organized by:
+Cost behavior classificationsA
+Sales territories
+Functional classifications
+Responsibility centers 
+3. Managerial accounting, as opposed to financial accounting, is primarily concerned with:
+Providing information to investors and creditors
+Preparing the current balance sheet of the company
+Present and future planning and controlA 
+Historical results of operations 
+4. An income statement organized by cost behavior does not include:
+Revenues
+Gross profitA
+Operating income 
+Contribution margin 
+5. Which of the following is the correct calculation for the contribution margin ratio?
+Contribution margin divided by variable costs.
+Sales revenue divided by variable costs.
+Sales revenue divided by contribution margin.
+Contribution margin divided by sales revenue.A
+6. The contribution margin format income statement:
+is most frequently used for financial statement reporting purposes.
+uses a behavior pattern classification for costs rather than a functional cost classification approach.A
+results in a larger amount of operating income than the traditional income statement format.
+emphasizes that all costs change in proportion to any change in revenues.
+7. Simplifying assumptions made when using cost behavior pattern data include:
+activity range and variability.
+relevant range and linearity.A
+fixed activity and linearity.
+relevant range and liquidity.
+8. When a cost formula is used to describe a mixed (semi-variable) cost behavior pattern, total costs are expected to increase and per unit costs are expected to:
+remain constant as the level of activity increases.A
+decrease as the level of activity increases.
+decrease as the level of activity decreases.
+increase as the level of activity increases.
+9. In a make or buy decision, which of the following costs would be considered relevant?
+sunk costs.
+unavoidable costs.
+avoidable costs.A
+allocated costs.
+10. Opportunity costs are:
+included in inventory.
+sunk costs.
+included in cost of goods sold.
+foregone benefits.A
+#1 In order to achieve higher quality cost information from the assignment of overhead costs to products manufactured, the use of a predetermined overhead rate is being replaced by:
+process costing.
+absorption costing.
+job order costing.
+activity-based costing.A
+#2 Cost of Goods Manufactured can be computed as:
+beginning balance of work in process + raw materials purchased + direct labor costs incurred + manufacturing overhead costs applied ─ ending balance of work in process.
+beginning balance of work in process + raw materials used + direct labor costs incurred + manufacturing overhead costs applied ─ ending balance of work in process.A
+ending balance of work in process + raw materials used + direct labor costs incurred + manufacturing overhead costs applied ─ beginning balance of work in process.
+ending balance of work in process + raw materials purchased + direct labor costs incurred + manufacturing overhead costs applied ─ beginning balance of work in process.
+#3 Which of the following is NOT an account that over/under applied overhead is transferred to at the end of an accounting period?
+Cost of goods sold.
+Raw materials.A
+Work-in-process.
+Finished goods.
+#4 In the T-account cost flow diagram of balance sheet inventory accounts and the income statement cost of goods sold account:
+direct labor costs are credited to work in process.
+cost of goods sold is debited to finished goods inventory.
+raw materials purchases are debited to work in process.
+cost of goods manufactured is debited to finished goods inventory.A
+#5 The use of activity-based costing information to support the decision-making process is known as:
+value chain analysis.
+cost distortion analysis.
+activity-based management.A
+cost-based management.
+#6 Which of the following is NOT an inventory account for a manufacturing company?
+Finished goods.
+Cost of goods sold.A
+Work-in-process.
+Raw materials.
+#7 Product costs are inventoried and treated as assets until:
+the next accounting period.
+related liabilities no longer exist.
+the period in which the products they relate to are sold.A
+none of these.
+#8 The term "cost" means:
+all of these.A
+the wage paid to a worker.
+the price paid for a raw material.
+the price charged by an entity for its services.
+#9 Common costs pertain to costs that:
+are not directly traceable to a cost object.A
+are directly traceable to a cost object.
+are direct costs.
+are commonly incurred.
+#10 Standards are most appropriately used to:
+support the planning and control processes of the firm.A
+penalize workers and managers who do not meet them.
+reward workers and managers who meet them.
+calculate the unit cost of a product or service.
+#1 Cost of Goods Manufactured can be computed as:
+beginning balance of work in process + raw materials used + direct labor costs incurred + manufacturing overhead costs applied ─ ending balance of work in process.A
+ending balance of work in process + raw materials used + direct labor costs incurred + manufacturing overhead costs applied ─ beginning balance of work in process.
+ending balance of work in process + raw materials purchased + direct labor costs incurred + manufacturing overhead costs applied ─ beginning balance of work in process.
+beginning balance of work in process + raw materials purchased + direct labor costs incurred + manufacturing overhead costs applied ─ ending balance of work in process.
+#2 Which of the following will cause income determined with absorption costing to be higher than income determined with direct costing?
+units produced are greater than units sold.A
+units produced equal units sold.
+units produced are less than units sold.
+income determined with absorption costing will always equal income determined with direct costing.
+#3 An example of a cost likely to have an indirect relationship with products being manufactured is:
+production labor costs.
+raw material costs.
+electricity costs for packaging equipment.A
+None of these.
+#4 The primary difference between absorption costing and direct costing is the treatment of:
+fixed manufacturing overhead.A
+direct labor costs.
+direct material costs.
+variable manufacturing overhead.
+#5 A predetermined overhead rate is used to:
+allocate selling and administrative expenses to manufactured products.
+assign indirect costs to cost objects.A
+establish prices for manufactured products.
+keep track of actual overhead costs as they are incurred.
+#6 Which of the following is NOT an account that over/under applied overhead is transferred to at the end of an accounting period?
+Raw materials.A
+Finished goods.
+Cost of goods sold.
+Work-in-process.
+#7 Direct costs pertain to costs that:
+are variable costs.
+are traceable to a cost object.A
+are commonly incurred.
+are not traceable to a cost object.
+#8 Direct costing may be used for:
+all of these.
+internal reporting purposes.A
+income tax reporting purposes.
+external financial reporting purposes.
+#9 Common costs pertain to costs that:
+are directly traceable to a cost object.
+are not directly traceable to a cost object.A
+are commonly incurred.
+are direct costs.
+#10 The operating budget depends on key information developed in the:
+cash forecast.
+labor forecast.
+sales forecast.A
+operating forecast.
+#11 The overhead component of product cost is:
+likely to be the same amount for every product made by the company.
+the sum of the actual overhead costs incurred in the manufacture of the product.
+an estimated amount based on labor hours, machine hours, or some other activity.A
+determined at the end of the year when actual costs and actual production are known.
+#12 An organization's value chain refers to:
+the process of collecting and recording valuable information in the accounting information system.
+None of these.
+the sequence of functions and related activities that add value for the customer.A
+the process of using cost information to manage the activities of the organization.
+#13 The predetermined overhead application rate based on direct labor hours is computed as:
+estimated total overhead costs divided by actual direct labor hours.
+actual total overhead costs divided by actual direct labor hours.
+actual total overhead costs divided by estimated direct labor hours.
+estimated total overhead costs divided by estimated direct labor hours.A
+#14 Which of the following is a true statement regarding absorption and/or direct costing?
+A firm can choose to use either absorption or direct costing for income tax purposes.
+Direct costing assigns only direct materials and direct labor to products.
+Absorption costing includes fixed overhead in product costs whereas direct costing does not.A
+A firm can choose to use either absorption or direct costing for financial reporting purposes.
+#15 Cost accounting is a subset of:
+financial accounting.
+managerial accounting.A
+job order cost accounting.
+process cost accounting.
+#16 The budgeting process that most likely creates an attitude supportive of achieving organization goals is:
+proportionate increase approach.
+participative approach.A
+zero based approach.
+top-down approach. 
+#1 For performance reports to be most effective for management by exception, they should:
+show all of the costs associated with the responsibility center being reported about.
+be held until the financial statements for the month have been issued.
+be issued as soon after the activity or period covered as possible.A
+be issued at the same time for all responsibility centers.
+#2  A set of integrated financial and operating performance measures that communicate an organization's priorities associated with achieving strategic goals is known as a:
+responsibility report.
+balanced scorecard.A
+master budget.
+segment report
+#3 The term transfer price refers to:
+None of these.
+The price at which a product or service is sold by one segment to another related segment.A
+The price at which a product or service is sold by a segment to an outside party.
+The price at which a product or service is sold to a government entity.
+#4 The total variance for any particular cost component is referred to as the:
+none of these.
+budget variance.A
+efficiency variance.
+price variance.
+#5 The part of the variable overhead budget variance due to the difference between actual variable overhead cost and the standard cost allowed for the actual inputs used is called the:
+variable overhead volume variance.
+variable overhead efficiency variance.
+variable overhead spending variance.A
+variable overhead budget variance.
+#6 If the net of all variances is immaterial relative to the total production costs incurred during the period, the net variance is:
+treated as an adjustment to cost of goods sold.A
+ignored.
+treated as an adjustment to manufacturing overhead.
+treated as an adjustment to work in process, finished goods, and cost of goods sold.
+#7 A favorable materials quantity variance would occur if:
+more material is purchased than is used.
+actual pounds of materials used was greater than the standard pounds allowed.
+actual labor hours used was greater than the standard labor hours allowed.
+actual pounds of materials used were less than the standard pounds allowed.A
+#8 How is performance evaluated for an investment center?
+None of these.
+Comparison of actual and budgeted return on investment (ROI) based on segment margin and assets controlled by the segment.
+Actual costs incurred compared to budgeted costs.
+Actual segment margin compared to budgeted segment margin.A
+#9  How is performance evaluated for a profit center?
+Comparison of actual and budgeted return on investment (ROI) based on segment margin and assets controlled by the segment.
+Actual costs incurred compared to budgeted costs.
+None of these.
+Actual segment margin compared to budgeted segment margin.A
+#10 The best reason for flexing a budget is to:
+adjust actual results so they are closer to budgeted amounts.
+revise a budget at the beginning of a period.
+recognize the cost behavior pattern of budgeted amounts.
+permit a more accurate determination of variances.A
+#1 A variance is the difference between actual costs and:
+activity-based costs.
+expected costs.A
+selling price.
+historical costs.
+#2 A set of integrated financial and operating performance measures that communicate an organization's priorities associated with achieving strategic goals is known as a:
+balanced scorecard.A
+segment report.
+master budget.
+responsibility report.
+#3 The principal objective of a performance report is to:
+highlight activities that need management attention.A
+direct blame to those managers who did not meet goals.
+provide a basis for rewarding effective managers.
+highlight budgets that have been incorrectly established
+#4 The difference between standard and actual cost per unit of input is measured by:
+the variable overhead spending variance.
+the direct labor rate variance.
+all of these.A
+the raw materials price variance.
+#5  A performance report for direct labor shows a variance between the budget and actual amounts. This difference is a:
+budget variance.A
+direct labor efficiency variance.
+direct labor rate variance.
+direct labor spending variance.
+#6 If the net of all variances is immaterial relative to the total production costs incurred during the period, the net variance is:
+ignored.
+treated as an adjustment to manufacturing overhead.
+treated as an adjustment to cost of goods sold.A
+treated as an adjustment to work in process, finished goods, and cost of goods sold.
+#7 is a technique used to filter cost information contained in performance reports to each manager within the organization at an appropriate level of detail or summarization:
+Managerial reporting
+Segment reporting
+Financial reporting
+Responsibility reportingA
+#8 The purchasing agent of an organization acquired some raw materials at a bargain price, even though she knew that their quality was lower than that of the materials customarily used. This action resulted in a favorable raw materials purchase price variance that might very well have been more than offset by:
+an unfavorable raw materials usage variance.A
+an unfavorable variable overhead spending variance.
+a favorable direct labor efficiency variance.
+an unfavorable direct labor rate variance.
+#9 If the net variance of a business using standard costing is significant relevant to total production cost, the net variance should be:
+None of these.
+allocated between WIP and FG inventories and cost of goods sold.A
+assigned to cost of goods sold.
+carried forward to the next accounting period.
+#10 For performance reports to be most effective for management by exception, they should:
+be held until the financial statements for the month have been issued.
+be issued as soon after the activity or period covered as possible.A
+show all of the costs associated with the responsibility center being reported about.
+be issued at the same time for all responsibility centers.
+#11 The term noncontrollable cost:
+only applies to long-term costs.
+is another term for discretionary cost.
+implies that there is really nothing the manager can do to influence the amount of cost.A
+never applies to short-term costs.
+#12 The part of the variable overhead budget variance due to the difference between actual hours required and standard hours allowed for the work done is called the:
+variable overhead spending variance.
+variable overhead budget variance.
+variable overhead efficiency variance.A
+variable overhead volume variance.
+#1 Most entities satisfy the accounting criteria for recognizing an expense when:
+a commitment is made to purchase a product or service.
+cash is paid to a supplier.
+a dividend is paid to stockholders.
+a cost is incurred in the revenue generating processA
+#2 The term, "earned," in revenue recognition refers to which of the following?
+The entity has completed, or substantially completed, the activities it must perform to be entitled to the revenue benefits.A
+The product or service has been exchanged for cash, claims to cash, or an asset that is readily convertible to a known amount of cash or claims to cash.
+The entity has received an irrevocable order for goods or services.
+Cash has been received with an irrevocable order for goods or services.
+#3 The concept of matching revenue and expense refers to the fact that:
+costs incurred in the process of earning revenues during a period are deferred and expensed in a future period.
+all cash disbursements during a period are subtracted from all cash receipts during the period.
+expenses for a period equal the revenues for the period.
+all costs incurred in the process of earning revenues during a period are recorded as expenses in that period.A
+#4 Which of the following is an accurate statement regarding a statement of cash flows?
+Only material cash items that affect the income statement are included.
+All material operating, investing, and financing activities are included.A
+Only cash items that affect the income statement are included.
+Immaterial financing activities that affect cash do not need to be included.
+#5 The major difference between the indirect and the direct method of a statement of cash flows appears in which the following activities section(s)?
+The investing activities section only.
+The operating activities section only.A
+The investing activities and financing activities sections.
+The operating activities and financing activities sections.
+#6  Revenue may be recognized:
+if a company trades inventory at its usual selling price for newspaper advertising.A
+in 2013 from the sale of subscriptions of a magazine to be published in 2014.
+if management believes the market value of land held for future development has increased during the year.
+from the sale of a company's own common stock.
+#7 Under most circumstances, in order to recognize revenue:
+the revenue must be realized or realizable, and earned.A
+the entity must expect to receive cash in the future.
+cash must have been received.
+the entity must have paid for all expenses incurred in generating the revenue.
+#8  The first caption in most income statements in annual reports is:
+earned revenues.
+net sales.A
+gross sales.
+sales, less sales returns and allowances.
+#9  Which of the following accounts/captions are not ever included in the calculation for Gross Profit?
+Net Sales.
+Cost of Goods Sold.
+General and Selling Expenses.A
+Revenues.
+#10  When the periodic inventory system is used:
+gross profit from the sale of an item from inventory is known when the item is sold.
+operating profit from the sale of an item from inventory is known when the item is sold.
+cost of goods sold can be calculated by subtracting the ending inventory amount from the sum of beginning inventory and net purchases.A
+a physical inventory must be taken in order to estimate the cost of goods sold.
+#1 In the statement of cash flows, an increase in the accounts receivable balance from the beginning of the period to the end of the period would:
+be added to net income because this represents earned revenues that have not been collected.
+be subtracted from net income because this means that revenues were more than cash collected.A
+be added to net income because this means that revenues were less than cash collected.
+be subtracted from net income because this represents earned revenue provided by operating earnings.
+#2 Which of the following accounts/captions are not ever included in the calculation for Gross Profit?
+General and Selling Expenses.A
+Revenues.
+Net Sales.
+Cost of Goods Sold.
+#3 In the statement of cash flows, depreciation and amortization expense is added back to net income because:
+the cash disbursements for these accrued expenses will be made in a future period.
+these expenses affect investing activities, not operating activities.
+these expenses are recognized for accounting purposes, but they do not represent economic costs.
+these expenses do not affect cash, but were subtracted in the determination of net incomeA
+#4 Recognition of revenue in accrual accounting requires:
+that cash be received.
+only that the amount of cash to be received from the sale of a product or service be known.
+only that a product be delivered or a service be performed.
+that the revenue be realized or realizable, and earned.A
+#5 Most entities satisfy the accounting criteria for recognizing an expense when:
+a dividend is paid to stockholders.
+a cost is incurred in the revenue generating process.A
+cash is paid to a supplier.
+a commitment is made to purchase a product or service
+#6 Revenue may be recognized:
+from the sale of a company's own common stock.
+if management believes the market value of land held for future development has increased during the year.
+if a company trades inventory at its usual selling price for newspaper advertising.A
+in 2013 from the sale of subscriptions of a magazine to be published in 2014
+#7 Most entities satisfy the accounting criteria for recognizing revenue when:
+an unearned revenue account is credited.
+a product is delivered or a service is provided.A
+cash is received from a customer.
+an order is received from a customer.
+#8 When the periodic inventory system is used:
+operating profit from the sale of an item from inventory is known when the item is sold.
+cost of goods sold can be calculated by subtracting the ending inventory amount from the sum of beginning inventory and net purchases.A
+a physical inventory must be taken in order to estimate the cost of goods sold.
+gross profit from the sale of an item from inventory is known when the item is sold.
+#9 Gains differ from revenues because gains:
+are reported as income from operating activities.
+do not have to be realized.
+are not a result of the entity's ongoing, central operations.A
+do not involve any offsetting costs or expenses.
+#10 The concept of matching revenue and expense refers to the fact that:
+expenses for a period equal the revenues for the period.
+all cash disbursements during a period are subtracted from all cash receipts during the period.
+costs incurred in the process of earning revenues during a period are deferred and expensed in a future period.
+all costs incurred in the process of earning revenues during a period are recorded as expenses in that period.A
+#11 The term, "realization," in revenue recognition refers to which of the following?
+The entity has completed, or substantially completed, the activities it must perform to be entitled to the revenue benefits.
+The product or service has been exchanged for cash, claims to cash, or an asset that is readily convertible to a known amount of cash or claims to cash.A
+Cash has been received with an irrevocable order for goods or services.
+The entity has received an irrevocable order for goods or services.
+#1 Revenue may be recognized:
+from the sale of a company's own common stock.
+if management believes the market value of land held for future development has increased during the year.
+if a company trades inventory at its usual selling price for newspaper advertising.A
+in 2013 from the sale of subscriptions of a magazine to be published in 2014.
+#2 In the statement of cash flows, depreciation and amortization expense is added back to net income because:
+these expenses are recognized for accounting purposes, but they do not represent economic costs.
+these expenses affect investing activities, not operating activities.
+the cash disbursements for these accrued expenses will be made in a future period.
+these expenses do not affect cash, but were subtracted in the determination of net income.A
+#3 In the statement of cash flows, an increase in the accounts receivable balance from the beginning of the period to the end of the period would:
+be added to net income because this represents earned revenues that have not been collected.
+be subtracted from net income because this means that revenues were more than cash collected.A
+be added to net income because this means that revenues were less than cash collected.
+be subtracted from net income because this represents earned revenue provided by operating earnings.
+#4 The concept of matching revenue and expense refers to the fact that:
+expenses for a period equal the revenues for the period.
+all costs incurred in the process of earning revenues during a period are recorded as expenses in that period.A
+all cash disbursements during a period are subtracted from all cash receipts during the period.
+costs incurred in the process of earning revenues during a period are deferred and expensed in a future period.
+#5 The major difference between the indirect and the direct method of a statement of cash flows appears in which the following activities section(s)?
+The operating activities and financing activities sections.
+The investing activities and financing activities sections.
+The operating activities section only.A
+The investing activities section only.
+#6 The first caption in most income statements in annual reports is:
+net sales.A
+sales, less sales returns and allowances.
+gross sales.
+earned revenues.
+#7 When the periodic inventory system is used:
+cost of goods sold can be calculated by subtracting the ending inventory amount from the sum of beginning inventory and net purchases.A
+a physical inventory must be taken in order to estimate the cost of goods sold.
+operating profit from the sale of an item from inventory is known when the item is sold.
+gross profit from the sale of an item from inventory is known when the item is sold.
+#8 Income from operations is:
+sometimes used in the ROI calculation.A
+usually calculated after income tax expense.
+usually used in the ROE calculation.
+sometimes called the "bottom line."
+#9 Under most circumstances, in order to recognize revenue:
+the entity must have paid for all expenses incurred in generating the revenue.
+the revenue must be realized or realizable, and earned.A
+cash must have been received.
+the entity must expect to receive cash in the future.
+#10 Most entities satisfy the accounting criteria for recognizing an expense when:
+a dividend is paid to stockholders.
+cash is paid to a supplier.
+a commitment is made to purchase a product or service.
+a cost is incurred in the revenue generating process.A
+Managerial accounting, as opposed to financial accounting, is primarily concerned with:
+providing information to investors and creditors.
+preparing the current balance sheet of the company.
+historical results of operations.
+present and future planning and control.A
+As the level of activity increases:
+variable cost per unit decrease.
+fixed cost per unit decrease.A
+variable cost per unit increase.
+fixed cost per unit increase.
+Expressing fixed costs on a per unit basis of activity is misleading because:
+fixed cost per unit increase as activity increases.
+total fixed costs increase as activity increases.
+total fixed costs decrease as activity decreases.
+fixed cost per unit decrease as activity increases.A
+The contribution margin format income statement is organized by:
+sales territories.
+cost behavior classifications.A
+functional classifications.
+responsibility centers.
+Each of a company's two product lines has a different contribution margin ratio. If the company's total sales remain the same but the sales mix shifts toward selling more of the product with the higher contribution ratio, which of the following is true?
+The break-even point will decrease.
+All of these are true.A
+The average contribution margin ratio will increase.
+Operating income will increase.
+Which of the following is the correct calculation for the contribution margin ratio?
+Contribution margin divided by sales revenue.A
+Sales revenue divided by variable costs.
+Sales revenue divided by contribution margin.
+Contribution margin divided by variable costs.
+Managerial accounting can best be described as:
+meeting the requirements of generally accepted accounting principles.
+the preparation and distribution of the corporate tax return.
+the preparation and distribution of the financial statements.
+the preparation and use of accounting information within the organization.A
+When a cost formula is used to describe a mixed (semi-variable) cost behavior pattern, total costs are expected to increase and per unit costs are expected to:
+decrease as the level of activity decreases.
+increase as the level of activity increases.
+decrease as the level of activity increases.
+remain constant as the level of activity increases.A
+Which of the following is NOT an account that over/under applied overhead is transferred to at the end of an accounting period?
+Cost of goods sold.
+Raw materials.A
+Finished goods.
+Work-in-process.
+Product costs are inventoried and treated as assets until:
+the next accounting period.
+none of these.
+the period in which the products they relate to are sold.A
+related liabilities no longer exist.
+Direct costs pertain to costs that:
+are commonly incurred.
+are not traceable to a cost object.
+are variable costs.
+are traceable to a cost object.A
+An example of a cost that is likely to have a direct relationship with products being manufactured is:
+depreciation of production equipment.
+salaries of production supervisors.
+sales force salaries.
+production labor costs.A
+An example of a cost likely to have an indirect relationship with products being manufactured is:
+None of these.
+raw material costs.
+electricity costs for packaging equipment.A
+production labor costs.
+The sequence of activities that add value to the organization are:
+the strategic cost initiatives.
+the value chain.A
+the chain of production events.
+the value processes.
+Cost accounting is primarily concerned with:
+all of these.A
+generally accepted accounting principles.
+income measurement and inventory valuation.
+accumulation and determination of product or service cost.
+A predetermined overhead rate is used to:
+keep track of actual overhead costs as they are incurred.
+allocate selling and administrative expenses to manufactured products.
+assign indirect costs to cost objects.A
+establish prices for manufactured products.
+Which of the following describes the correct sequence of flow of costs for a manufacturing firm?
+Work-in-process, raw materials, finished goods, cost of goods sold.
+Raw materials, work-in-process, finished goods, cost of goods sold.A
+Raw materials, finished goods, work-in-process, cost of goods sold.
+Raw materials, work-in-process, cost of goods sold, finished goods.
+The raw materials budgeted to be purchased for the period is equal to:
+ending inventory + raw material used - beginning inventory.A
+beginning inventory - ending inventory + raw material used.
+ending inventory + ending inventory - raw material used.
+beginning inventory + raw material used - ending inventory.
+The key difference between a controllable cost and a noncontrollable cost is:
+the large amount of the cost.
+the short term ability to influence the cost by the manager.A
+whether the cost is fixed or variable.
+the frequency of cost incurrence.
+How is performance evaluated for a profit center?
+Actual segment margin compared to budgeted segment margin.A
+None of these.
+Actual costs incurred compared to budgeted costs.
+Comparison of actual and budgeted return on investment (ROI) based on segment margin and assets controlled by the segment.
+A favorable materials quantity variance would occur if:
+more material is purchased than is used.
+actual labor hours used was greater than the standard labor hours allowed.
+actual pounds of materials used was greater than the standard pounds allowed.
+actual pounds of materials used were less than the standard pounds allowed.A
+When an income statement shows data for segments of the organization, and data for each segment are added together to get totals for the whole organization:
+only direct revenues and direct expenses should be assigned to segments.A
+all expenses should be allocated to the segments.
+common fixed expenses should be allocated to the segments.
+direct fixed expenses should be subtracted as one amount in the "total" column.
+The preferred format for a segmented income statement emphasizes:
+variable costs and operating expenses.
+direct and common fixed costs.A
+variable and fixed costs.
+operating expenses and fixed costs.
+The difference between standard and actual cost per unit of input is measured by:
+the raw materials price variance.
+the direct labor rate variance.
+the variable overhead spending variance.
+all of these.A
+A set of integrated financial and operating performance measures that communicate an organization's priorities associated with achieving strategic goals is known as a:
+segment report.
+responsibility report.
+balanced scorecard.A
+master budget.
+________________ is a technique used to filter cost information contained in performance reports to each manager within the organization at an appropriate level of detail or summarization:
+Financial reporting
+Segment reporting
+Managerial reporting
+Responsibility reportingA
+A performance report for direct labor shows a variance between the budget and actual amounts. This difference is a:
+direct labor rate variance.
+direct labor efficiency variance.
+budget variance.A
+direct labor spending variance.
+An example of a cost that is noncontrollable in the short run is:
+property taxes.A
+raw materials.
+direct labor.
+supervisors salaries.
+The concept of matching revenue and expense refers to the fact that:
+all cash disbursements during a period are subtracted from all cash receipts during the period.
+costs incurred in the process of earning revenues during a period are deferred and expensed in a future period.
+expenses for a period equal the revenues for the period.
+all costs incurred in the process of earning revenues during a period are recorded as expenses in that period.A
+When the periodic inventory system is used:
+a physical inventory must be taken in order to estimate the cost of goods sold.
+cost of goods sold can be calculated by subtracting the ending inventory amount from the sum of beginning inventory and net purchases.A
+operating profit from the sale of an item from inventory is known when the item is sold.
+gross profit from the sale of an item from inventory is known when the item is sold.
+The term, "realization," in revenue recognition refers to which of the following?
+Cash has been received with an irrevocable order for goods or services.
+The entity has completed, or substantially completed, the activities it must perform to be entitled to the revenue benefits.
+The entity has received an irrevocable order for goods or services.
+The product or service has been exchanged for cash, claims to cash, or an asset that is readily convertible to a known amount of cash or claims to cash.A
+Gains differ from revenues because gains:
+are not a result of the entity's ongoing, central operations.A
+do not involve any offsetting costs or expenses.
+do not have to be realized.
+are reported as income from operating activities.
+The term, "earned," in revenue recognition refers to which of the following?
+The entity has received an irrevocable order for goods or services.
+The product or service has been exchanged for cash, claims to cash, or an asset that is readily convertible to a known amount of cash or claims to cash.
+Cash has been received with an irrevocable order for goods or services.
+The entity has completed, or substantially completed, the activities it must perform to be entitled to the revenue benefits.A
+The major difference between the indirect and the direct method of a statement of cash flows appears in which the following activities section(s)?
+The operating activities section only.A
+The operating activities and financing activities sections.
+The investing activities and financing activities sections.
+The investing activities section only.
+Most entities satisfy the accounting criteria for recognizing an expense when:
+a dividend is paid to stockholders.
+a cost is incurred in the revenue generating process.A
+cash is paid to a supplier.
+a commitment is made to purchase a product or service.
+Under most circumstances, in order to recognize revenue:
+cash must have been received.
+the revenue must be realized or realizable, and earned.A
+the entity must have paid for all expenses incurred in generating the revenue.
+the entity must expect to receive cash in the future.
+In the statement of cash flows, an increase in the accounts receivable balance from the beginning of the period to the end of the period would:
+be subtracted from net income because this represents earned revenue provided by operating earnings.
+be added to net income because this means that revenues were less than cash collected.
+be subtracted from net income because this means that revenues were more than cash collected.A
+be added to net income because this represents earned revenues that have not been collected.
+The first caption in most income statements in annual reports is:
+sales, less sales returns and allowances.
+earned revenues.
+gross sales.
+net sales.A
+The gross profit ratio is useful to the manager for each of the following purposes except that:
+it can be used to determine the amount available from a given amount of revenue to cover operating expenses.
+it can be used to estimate the amount of operating expenses for a period.A
+it can be used to determine the selling price to set for an item.
+it can be used to estimate the amount of inventory lost in a fire.
+Revenue may be recognized:
+from the sale of a company's own common stock.
+in 2013 from the sale of subscriptions of a magazine to be published in 2014.
+if a company trades inventory at its usual selling price for newspaper advertising.A
+if management believes the market value of land held for future development has increased during the year.
+Most entities satisfy the accounting criteria for recognizing an expense when:
+cash is paid to a supplier.
+a commitment is made to purchase a product or service.
+a dividend is paid to stockholders.
+a cost is incurred in the revenue generating process.A
+The term, "earned," in revenue recognition refers to which of the following?
+The entity has received an irrevocable order for goods or services.
+The product or service has been exchanged for cash, claims to cash, or an asset that is readily convertible to a known amount of cash or claims to cash.
+The entity has completed, or substantially completed, the activities it must perform to be entitled to the revenue benefits.A
+Cash has been received with an irrevocable order for goods or services.
+Income from operations is:
+usually used in the ROE calculation.
+sometimes used in the ROI calculation.A
+usually calculated after income tax expense.
+sometimes called the "bottom line."
+The major difference between the indirect and the direct method of a statement of cash flows appears in which the following activities section(s)?
+The investing activities section only.
+The operating activities and financing activities sections.
+The operating activities section only.A
+The investing activities and financing activities sections.
+In the statement of cash flows, depreciation and amortization expense is added back to net income because:
+these expenses do not affect cash, but were subtracted in the determination of net income.A
+the cash disbursements for these accrued expenses will be made in a future period.
+these expenses are recognized for accounting purposes, but they do not represent economic costs.
+these expenses affect investing activities, not operating activities.
+Most entities satisfy the accounting criteria for recognizing revenue when:
+a product is delivered or a service is provided.A
+cash is received from a customer.
+an unearned revenue account is credited.
+an order is received from a customer.
+Under most circumstances, in order to recognize revenue:
+the entity must expect to receive cash in the future.
+the entity must have paid for all expenses incurred in generating the revenue.
+cash must have been received.
+the revenue must be realized or realizable, and earned.A
+Recognition of revenue in accrual accounting requires:
+that the revenue be realized or realizable, and earned.A
+that cash be received.
+only that the amount of cash to be received from the sale of a product or service be known.
+only that a product be delivered or a service be performed.

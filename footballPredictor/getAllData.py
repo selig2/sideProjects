@@ -167,8 +167,8 @@ def reformat(turnoverMarginArray, redZoneTDArray, thirdDownPercentArray):
 	columns = len(redZoneTDArray[0])
 	for i in range(1, 33): #loop over the rows from where data is (ignoring team name and number) and get rid of + 
 		for j in range(2, columns):
-			if(turnoverMarginArray[i][j] != '0' and turnoverMarginArray[i][j][0] != "-"): #get rid of +
-				turnoverMarginArray[i][j] = turnoverMarginArray[i][j][1:]
+			# if(turnoverMarginArray[i][j] != '0' and turnoverMarginArray[i][j][0] != "-"): #get rid of +
+			# 	turnoverMarginArray[i][j] = turnoverMarginArray[i][j][1:]
 
 			redZoneTDArray[i][j] = redZoneTDArray[i][j][:-1] #get rid of %
 			thirdDownPercentArray[i][j] = thirdDownPercentArray[i][j][:-1] #get rid of %
@@ -192,6 +192,10 @@ def getPasserRatingDiffFrom(year):
 	return passerRatingDiff2014
 
 
+def getTeamStatCurrent(team, statArray):
+	for i in range(1, 33):
+		if(statArray[i][1] == team):
+			return float(statArray[i][len(statArray[0])-3])
 
 
 

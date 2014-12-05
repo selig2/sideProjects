@@ -23,16 +23,13 @@ from dataVisualization import *
 # SOFTWARE.
 
 def main():
-	gamesWonSoFar = getGamesWonFrom(2014)
-	print makePredictions(8, 5) #make predictions for week 7
-	print experimental5()
-	print "Standard Deviation: " + str(experimental5SD())
-	print "Average: " + str(averageOfArray(experimental5()))
-	print findRSingleArrays(gamesWonSoFar, experimental5())
+	#gamesWonSoFar = getGamesWon()
+	print makePredictions(13, 3) #make predictions for week 8	
+	print experimental3()
+	#print "Standard Deviation: " + str(experimental1SD())
+	#print "Average: " + str(aveageOfArray(experimental1()))
+	#print findRSingleArrays(gamesWonSoFar, experimental1SD())
 
-	#gamesWonSoFar = getGamesWon2014()
-	#experiment = experimental3()
-	#print findRSingleArrays(experiment, gamesWonSoFar)
 
 	gamesWon = getGamesWon()
 	atpr = getATPR()
@@ -48,12 +45,21 @@ def main():
 	passerRatingDiff = getPasserRatingDiff(atpr, oatpr)
 	reformat(turnoverMargin, redZoneTDPercent, thirdDownPercent)
 
-	#print findRSingleArrays(PPPMarginSoFar, gamesWonSoFar)
-	# r = findRDoubleArrays(pppMargin, gamesWon, 32, 13)
-	# print "r = " + str(r)
-	# print "r squared= " + str(r**2)
+	multipleRegressionCoefficients = multipleRegression()
+	
+	denverPPP = getTeamStatCurrent("New England", pppMargin)
+	denverPRD = getTeamStatCurrent("New England", passerRatingDiff)
 
-	#print linearRegression(pppMargin, gamesWon, 32, 2014)
+	predictedDenverWins = multipleRegressionCoefficients[0] + (multipleRegressionCoefficients[1] * denverPPP)\
+	+ (multipleRegressionCoefficients[2] * denverPRD)
+	print "Using multiple regression model, New England  are expected to win: " + str(predictedDenverWins)
+
+		
+
+
+
+
+
 
 	#print plotSeason(pppMargin, gamesWon, 2014, 'PPP margin', 'games won', 'ppp vs gamesWonSoFar', 'pppMarginwk7.png')
 
